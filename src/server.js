@@ -3,6 +3,7 @@ import http from "node:http"
 
 // Importa uma função 'middleware' que vai processar dados em formato JSON.
 import { jsonHandler } from "./middlewares/jsonHandler.js"
+import { routeHandler } from "./middlewares/routeHandler.js"
 
 // Define a função principal que será executada para cada requisição recebida.
 async function listener(request, response) {
@@ -11,7 +12,7 @@ async function listener(request, response) {
     await jsonHandler(request, response)
 
     // Exibe no terminal o corpo da requisição já processado.
-    console.log(request.body)
+    routeHandler(request, response)
 }
 
 // Cria o servidor usando a função 'listener' e o faz "escutar" por conexões na porta 3333.
