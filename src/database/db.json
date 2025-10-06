@@ -1,1 +1,13 @@
-{"tickets":[{"id":"948bd9cf-d658-401b-9c09-f0a7342c7358","equipament":"Computador","description":"Computador não liga","user_name":"Rodrigo Gonçalves","status":"closed","created_at":"2025-10-01T18:20:44.731Z","updated_at":"2025-10-01T18:20:44.731Z","solution":"Trocamos a memório do computador que estava causando o problema"},{"id":"229f3d58-d861-4ba4-a8d9-3796af6d99ac","equipament":"Mouse","description":"A tecla de espaço não funciona","user_name":"João Pedro","status":"closed","created_at":"2025-10-01T19:46:58.313Z","updated_at":"2025-10-06T19:21:55.263Z"},{"id":"72fb906f-0e4e-4633-9a6f-dd73650831fd","equipament":"Monitor","description":"Monitor desliga repentinamente","user_name":"Maria","status":"closed","created_at":"2025-10-06T19:32:48.498Z","updated_at":"2025-10-06T19:32:48.498Z"}]}
+{
+  "tickets": [
+    {
+      "id": "72fb906f-0e4e-4633-9a6f-dd73650831fd",
+      "equipament": "Monitor",
+      "description": "Monitor desliga repentinamente",
+      "user_name": "Maria",
+      "status": "closed",
+      "created_at": "2025-10-06T19:32:48.498Z",
+      "updated_at": "2025-10-06T19:32:48.498Z"
+    }
+  ]
+}
